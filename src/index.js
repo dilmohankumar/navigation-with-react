@@ -8,6 +8,7 @@ ReactDOM.createRoot(
 ).render(
   <StrictMode>
     <App />
+   
   </StrictMode>
 );
 

@@ -11,7 +11,7 @@ function Card() {
   }, [username]);
 
   return (
-    <div className="ui raised very padded text container segment" style={{ marginTop: "80px" }}>
+    <div className="ui raised very padded text container segment" style={{ marginTop: "80px", backgroundColor:"lightgreen" }}>
       <h3 className="ui header">{user}</h3>
     </div>
   );

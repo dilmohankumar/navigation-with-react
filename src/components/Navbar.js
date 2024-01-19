@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar=()=>{
  
     return(
-        <nav className="ui raised very padded segments" style={{padding:"20px"}}>
+        <nav className="ui raised very padded segments" style={{padding:"20px",background:"grey"}}>
             <a href="/" className="ui teal inverted segment">Nav</a>
             <div className="ui right floated header">
                 <button className="ui button" ><Link to="/home">Home</Link></button>
